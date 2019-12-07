@@ -13,4 +13,13 @@ $(function(){
         }
     });
     
+
+    $("#loginButton").click(function(){
+        console.log("button is clicked")
+     $("#loginModal").modal("show")       
+    });
+
+    $("#reserveButton").click(function(){
+     $("#reserveModal").modal("show")       
+    });
 });
